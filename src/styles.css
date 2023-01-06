@@ -241,3 +241,7 @@ footer .social-links a:hover {
 .content-container {
   margin: 90px;
 }
+
+a {
+  margin: 5px;
+}
