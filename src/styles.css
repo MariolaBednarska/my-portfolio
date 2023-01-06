@@ -245,3 +245,7 @@ footer .social-links a:hover {
 a {
   margin: 5px;
 }
+
+footer a {
+  text-align: right;
+}
