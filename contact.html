@@ -12,31 +12,36 @@
     <title>Document</title>
 </head>
 <body cz-shortcut-listen="true">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container">
-      <nav class="d-flex justify-content-between">
-        <a href="/" title="Homepage">Mariola Bednarska</a>
-        <ul>
-          <li>
-            <a href="/" title="Homepage"> Home</a>
-          </li>
-          <li class="active">
-            <a href="/about.html" title="About Mariola">About</a>
-          </li>
-          <li>
-            <a href="/work.html" title="My works">Work</a>
-          </li>
-          <li>
-            <a href="/contact.html" title="Contact me">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+        <a class="navbar-brand" href="/" title="Homepage">Mariola Bednarska</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/" tilte="Homepage">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html" title="About Mariola Bednarska">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/work.html" title="My works">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html" title="Contact me">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Let's stay in touch!</h1>
       </div>
     <footer class="container">
-      <div class="contact-box justify-content-between mb-5 d-none d-xs-flex">
+      <div class="contact-box justify-content-between mb-5 d-none d-sm-flex">
         <div>
           <h3>Work inquiry</h3>
           <p class="text-muted">Let's work together</p>
