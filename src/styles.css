@@ -2,8 +2,9 @@
   --branding-color: #353739;
   --secondary-color: #ebe4f4;
   --third-color: #f9f9f9;
-  --heading-font-family: "Playfair Display", serif;
-  --default-font-family: "Poppins", sans-serif;
+  --heading-font-family: "Cantarell", serif;
+  --default-font-family: "Cormorant+Garamond", sans-serif;
+  --navbar-font-family: "Sacramento";
 }
 
 body {
@@ -48,6 +49,10 @@ p {
   padding: 80px 20px;
   margin: 90px 50px;
   border-radius: 20px;
+}
+
+.hero h1 {
+    font-family: var(--navbar-font-family);
 }
 
 .hero p {
@@ -161,6 +166,11 @@ nav li.active a {
   color: var(--branding-color);
 }
 
+nav a {
+  font-family: var(--heading-font-family);
+  color:#9818d6;
+}
+
 footer {
   margin: 60px 0;
 }
@@ -248,4 +258,9 @@ a {
 
 footer a {
   margin: 0 5px 0 0 ;
+}
+
+.navbar-brand {
+  font-family: var(--heading-font-family);
+  color: #9818d6;
 }
