@@ -232,6 +232,20 @@ footer .social-links a:hover {
   .project-desciption {
     padding: 0;
     text-align: center;
+    padding: 0;
+  }
+
+  .content h1 {
+    font-size: 44px;
+  }
+
+  .content-container {
+    margin: 0;
+    padding: auto;
+  }
+
+  .justify-content-center .email-link {
+    font-size: 18px;
   }
 }
 
