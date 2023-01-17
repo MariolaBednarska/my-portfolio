@@ -230,6 +230,10 @@ footer .social-links a:hover {
   .content h1 {
     font-size: 44px;
   }
+
+  .email-link {
+    font-size: 18px;
+  }
 }
 
 .logoName {
