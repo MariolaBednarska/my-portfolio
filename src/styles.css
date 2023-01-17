@@ -26,7 +26,6 @@ h6 {
 h1 {
   font-size: 96px;
   line-height: 1.5;
-  text-align: center;
 }
 
 h2 {
@@ -46,13 +45,13 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 80px 20px;
-  margin: 90px 50px;
+  padding: 60px 20px;
+  margin: 0px 50px;
   border-radius: 20px;
 }
 
 .hero h1 {
-    font-family: var(--navbar-font-family);
+  font-family: var(--navbar-font-family);
 }
 
 .hero p {
@@ -101,11 +100,10 @@ p {
 
 .btn-branding {
   background: var(--branding-color);
-  border: 1px solid var(--branding-color);
-  color: var(--secondary-color);
   border-radius: 4px;
-  font-size: 18px;
+  color: white;
   text-decoration: none;
+  font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
 }
@@ -166,11 +164,6 @@ nav li.active a {
   color: var(--branding-color);
 }
 
-nav a {
-  font-family: var(--heading-font-family);
-  color:#9818d6;
-}
-
 footer {
   margin: 60px 0;
 }
@@ -212,12 +205,12 @@ footer .social-links a:hover {
 
 @media (max-width: 900px) {
   h1 {
-    font-size: 44px;
+    font-size: 40px;
     line-height: 1.5;
   }
 
   h2 {
-    font-size: 44px;
+    font-size: 40px;
   }
 
   h3 {
@@ -232,49 +225,9 @@ footer .social-links a:hover {
   .project-desciption {
     padding: 0;
     text-align: center;
-    padding: 0;
-  }
-
-  .content h1 {
-    font-size: 44px;
-  }
-
-  .content-container {
-    margin: 0;
-    padding: auto;
-  }
-
-  .justify-content-center .email-link {
-    font-size: 18px;
   }
 }
 
-.img-fluid {
-  border-radius: 5px;
-  display: block;
-  margin: 0 auto;
-}
-
-.justify-content-between {
-  background-color: var(--secondary-color);
-  margin: 15px;
-  padding: 15px 50px;
-  border-radius: 20px;
-}
-
-.content-container {
-  margin: 90px;
-}
-
-a {
-  margin: 5px;
-}
-
-footer a {
-  margin: 0 5px 0 0 ;
-}
-
-.navbar-brand {
-  font-family: var(--heading-font-family);
+.logoName {
   color: #9818d6;
 }
